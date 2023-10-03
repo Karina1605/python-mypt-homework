@@ -1,5 +1,7 @@
-# Import constants for our function
-from constants import *
+# As we know boundaries od the generated number, we can set an interval
+# number can change in diapazone (0..101)
+HIGH_BOUND = 100
+LOW_BOUND = 1
 
 def game_core(number: int = 1) -> int:
     """Search based on binary search algorithm.
